@@ -77,7 +77,7 @@
                                  (error-response *default-error-response*))
   "Returns a Clack middleware which can be used to override CORS HTTP headers in response.
 
-   You can pass arguments ALLOWED-ORIGIN, ALLOWED-HEADERS and ALLOWED-METHODS to override corresponding headers.
+   You can pass arguments ALLOWED-ORIGIN, ALLOWED-HEADERS,ALLOWED-CREDENTIALS and ALLOWED-METHODS to override corresponding headers.
 
    If given, these arguments are extend headers, returned by the main application. For example, if main application
    already returns `Access-Control-Allow-Headers` with value `Content-Type`, then it will be overwritten with
