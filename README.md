@@ -35,7 +35,7 @@ You can install this library from Quicklisp, but you want to receive updates qui
 
 <a id="x-28CLACK-CORS-3AMAKE-CORS-MIDDLEWARE-20FUNCTION-29"></a>
 
-### [function](308b) `clack-cors:make-cors-middleware` app &key (allowed-origin \*default-allowed-origin\*) (allowed-headers \*default-allowed-headers\*) (allowed-methods \*default-allowed-methods\*) (error-response \*default-error-response\*)
+### [function](308b) `clack-cors:make-cors-middleware` app &key (allowed-origin \*default-allowed-origin\*) (allowed-headers \*default-allowed-headers\*) (allowed-methods \*default-allowed-methods\*) (allowed-credentials \*default-allowed-credentials\*) (error-response \*default-error-response\*)
 
 Returns a Clack middleware which can be used to override `CORS` `HTTP` headers in response.
 
